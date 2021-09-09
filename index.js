@@ -5,7 +5,7 @@ var userName = readLineSync.question(chalk.green("Welcome To My CLI App. I am Ar
 
 var userName = readLineSync.question(chalk.green("First, What is your name "));
 
-console.log("Welcome, "+userName+". How well do you know me ? ");
+console.log("Welcome, "+userName+". How well do you know me? ");
 highScore={
   Name:"Bhaskar Jain",
   Score:2
