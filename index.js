@@ -1,11 +1,9 @@
 var readLineSync = require("readline-sync");
 const chalk=require("chalk")
+console.log(chalk.green("Welcome To My CLI App. I am Archit and we will play a short game to check how much do you know me."));
+var userName = readLineSync.question(chalk.green("First, What is your name? "));
 
-var userName = readLineSync.question(chalk.green("Welcome To My CLI App. I am Archit and we will play a short game to check how much do you know me"));
-
-var userName = readLineSync.question(chalk.green("First, What is your name "));
-
-console.log("Welcome, "+userName+". How well do you know me? ");
+console.log("Welcome, "+userName+". How well do you know me ? ");
 highScore={
   Name:"Bhaskar Jain",
   Score:2
@@ -30,6 +28,10 @@ questionList=[{
 {
   question:"What was my school name? ",
   answer:"St. Paul's Sr. Sec School"
+},
+{
+  question:"What do I like the most? ",
+  answer:"Cars"
 }];
 function printScore(scoreNumber)
 {
