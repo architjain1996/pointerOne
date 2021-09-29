@@ -26,6 +26,14 @@ questionList=[{
 { 
   question:"What was my college name? ",
   answer:"Techno India NJR Institute of Technology"
+},
+{
+  question:"What was my school name? ",
+  answer:"St. Paul's Sr. Sec School"
+},
+{
+  question:"What do I like the most? ",
+  answer:"Cars"
 }];
 function printScore(scoreNumber)
 {
